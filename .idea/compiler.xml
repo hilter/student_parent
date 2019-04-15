@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="student_api" />
+        <module name="student_common" />
+        <module name="student_graduate" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="student_api" target="1.8" />
+      <module name="student_common" target="1.8" />
+      <module name="student_graduate" target="1.8" />
+      <module name="student_parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="student_api" options="-parameters" />
+      <module name="student_common" options="-parameters" />
+      <module name="student_graduate" options="-parameters" />
+    </option>
+  </component>
+</project>

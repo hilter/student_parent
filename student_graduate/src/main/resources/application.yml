@@ -1,0 +1,13 @@
+server: 
+  port: 31002
+spring: 
+  application:  
+    name: student-graduate #指定服务名
+  datasource:  
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/graduate_student_db?useUnicode=true&amp;characterEncoding=UTF8
+    username: root
+    password: root
+  jpa: 
+    database: MySQL
+    show-sql: true
